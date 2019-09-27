@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SOW</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Wish shop project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="prueba.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="super_container">
+    
+    <!-- Header -->
+
+    <header class="header">
+        <div class="header_inner d-flex flex-row align-items-center justify-content-start">
+            <div class="logo"><a href="index.php">SOW</a></div>
+            <nav class="menu_principal">
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="#">Ropa</a></li>
+                    <li><a href="#">Accesorio</a></li>
+                    <li><a href="categorias.html">Categoria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+            <div class="header_content ml-auto">
+                <div class="search header_search">
+                    <form action="#">
+                        <input type="search" class="search_input" required="required">
+                        <button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="shopping">
+                    <!-- Cart -->
+                    <a href="#">
+                        <div class="cart">
+                            <img src="images/shopping-bag.svg" alt="">
+                            <div class="cart_num_container">
+                                <div class="cart_num_inner">
+                                    <div class="cart_num">1</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Star -->
+                    <a href="carrito.html">
+                        <div class="star">
+                            <img src="images/star.svg" alt="">
+                            <div class="star_num_container">
+                                <div class="star_num_inner">
+                                    <div class="star_num">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Avatar -->
+                    <a href="login.html">
+                        <div class="avatar">
+                            <img src="images/avatar.svg" alt="">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
+        </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+        <div class="logo menu_mm"><a href="#">SOW</a></div>
+        <div class="search">
+            <form action="#">
+                <input type="search" class="search_input menu_mm" required="required">
+                <button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm" src="images/magnifying-glass.svg" alt=""></button>
+            </form>
+        </div>
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="index.php">Inicio</a></li>
+                <li class="menu_mm"><a href="#">Ropa</a></li>
+                <li class="menu_mm"><a href="#">Accesorios</a></li>
+                <li class="menu_mm"><a href="categorias.html">Categorias</a></li>
+                <li class="menu_mm"><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Iniciar Sesi&oacute;n</a></li>
+                <li><a href="login.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Home -->
+ <br><br><br>  <br><br><br>  <br><br><br>  <br><br><br> <br><br><br> 
+
+    <div class="cod-container">
+        <div class="form-header">
+            <img src="img/Logo.jpg" class="img_1">
+        </div>
+
+        <div class="form-content">
+            <form action="check-login.php" class="cod-form" method="post">
+                <div class="form-title">
+                    <h3>Iniciar Sesión</h3>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" class="form-input" name="email" id="correo">
+                    <label class="label" for="correo">Correo</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="password" id="pass">
+                    <label class="label" for="pass">Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" class="form-input" value="Iniciar Sesión">
+                    <p>No tienes cuenta? <a href="#" class="alt-form" style="border-bottom: none;">Ingresa aquí</a></p>
+                </div>
+               
+            </form>
+        </div>
+
+
+        
+        <div class="form-content">
+            <form action="process/registro.php" class="cod-form" method="post">
+                <div class="form-title">
+                    <h3>Regístrate Gratis</h3>
+                </div>
+                 <div class="input-group">
+                    <input type="text" class="form-input" name="nombre" id="nombre">
+                    <label class="label" for="reg-text">Nombre</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" class="form-input" name="email" id="email">
+                    <label class="label" for="reg-correo">Correo</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="pass_registro" id="pass_registro">
+                    <label class="label" for="reg-pass">Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="pass_registro2" id="pass_registro2">
+                    <label class="label" for="reg-rep-pass">Repetir Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" class="form-input" value="Registrate">
+                    <p>Ya tienes cuenta? <a href="#" class="alt-form" style="border-bottom: none;">Ingresa aquí</a></p>
+                </div>
+               
+            </form>
+        </div>
+    </div>
+<br>   
+    <footer class="footer" style="background: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="footer_logo"><a href="#">SOW</a></div>
+                    <nav class="footer_nav">
+                        <ul>
+                            <li><a href="index.php">Inicio</a></li>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="categorias.html">Categorias</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                            <li><a href="login.html">Iniciar Sesi&oacute;n</a></li>
+                            <li><a href="login.html">Registrarse</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/custom.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

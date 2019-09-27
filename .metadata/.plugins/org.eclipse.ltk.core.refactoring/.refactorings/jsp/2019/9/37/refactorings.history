@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;modelo.PersonaDAQ&apos; to &apos;PersonaDAO&apos;&#x0D;&#x0A;- Original project: &apos;jsp&apos;&#x0D;&#x0A;- Original element: &apos;modelo.PersonaDAQ&apos;&#x0D;&#x0A;- Renamed element: &apos;modelo.PersonaDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PersonaDAQ&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;modelo{PersonaDAQ.java[PersonaDAQ" matchStrategy="1" name="PersonaDAO" qualified="false" references="true" similarDeclarations="false" stamp="1568256252296" textual="false" version="1.0"/>
+</session>

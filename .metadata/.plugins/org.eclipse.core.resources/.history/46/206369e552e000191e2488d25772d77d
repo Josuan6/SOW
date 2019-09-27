@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@ page import= "java.sql.*"%>
+	<% 
+	String nombre, correo, clave;
+	nombre = request.getParameter("nombre");
+	correo = request.getParameter("correo");
+	clave = request.getParameter("clave");
+	out.println(nombre);
+	out.println(correo);
+	out.println(clave);
+	out.println("outer");
+	if (true){
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sow?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","12345");
+			Statement s = conn.createStatement();
+			out.println("hasta aqui");
+			String a = "insert into usuario (Nombre, correo, clave) values ('"+nombre+"','"+correo+"','"+clave+"')";
+			s.execute(a);
+			out.println(nombre);
+			out.println(correo);
+			out.println(clave);
+		out.print("intter");
+		}catch(SQLException e){
+			System.out.println(e.getMessage());
+		e.printStackTrace();
+		out.print("se mamo");
+		}
+		out.print("fin");
+    }
+	%>
+
+</body>
+</html>
