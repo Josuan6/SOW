@@ -10,6 +10,8 @@
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/product.css">
 <link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
 </head>
 <body>
 
@@ -128,8 +130,8 @@
 				<div class="col">
 					<div class="current_page">
 						<ul>
-							<li><a href="categories.html">Moda de Mujeres</a></li>
-							<li><a href="categories.html">Traje de Baños</a></li>
+							<li><a href="categorias.html">Moda de Mujeres</a></li>
+							<li><a href="categorias.html">Traje de Baños</a></li>
 							<li>Traje de Baños de 2 Piezas</li>
 						</ul>
 					</div>
@@ -140,7 +142,8 @@
 				<!-- Product Image -->
 				<div class="col-lg-7">
 					<div class="product_image">
-						<div class="product_image_large"><img src="images/product_image_1.jpg" alt=""></div>
+						<div class="product_image_large"><img id="zoom_13" src="images/product_image_11.jpg" data-zoom-image="images/product_image_1.jpg" alt=""></div>
+						<script type="text/javascript" src="main.js"></script>
 						<div class="product_image_thumbnails d-flex flex-row align-items-start justify-content-start">
 							<div class="product_image_thumbnail" style="background-image:url(images/product_image_1.jpg)" data-image="images/product_image_1.jpg"></div>
 							<div class="product_image_thumbnail" style="background-image:url(images/product_image_2.jpg)" data-image="images/product_image_2.jpg"></div>
@@ -207,7 +210,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="button cart_button"><a href="#">Añadir al Carito</a></div>
+							<div class="button cart_button"><a href="#">Añadir al Carrito</a></div>
 						</div>
 					</div>
 				</div>

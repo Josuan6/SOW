@@ -284,7 +284,7 @@ section
 .button a
 {
 	display: block;
-	font-size: 12px;
+	font-size: 11px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.2em;
@@ -1216,7 +1216,7 @@ section
 	outline: none;
 	background: #937c6f;
 	color: #FFFFFF;
-	font-size: 12px;
+	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	cursor: pointer;

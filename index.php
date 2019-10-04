@@ -289,7 +289,7 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.html">'.$fila['NombreProd'].'</a></div>
+								<div class="product_name"><a href="producto.html">'.$fila['NombreProd'].'</a></div>
 								<div class="product_price">$'.$fila['Precio'].'</div>
 							</div>
 							<div class="product_options">

@@ -1,7 +1,7 @@
 <?php
     include './library/configServer.php';
     include './library/consulSQL.php';
-    include './process/securityPanel.php';
+   // include './process/securityPanel.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">

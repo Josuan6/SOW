@@ -1,5 +1,5 @@
 <?php
 define("USER", "root");
 define("SERVER", "localhost");
-define("BD", "store");
-define("PASS", "123456");
+define("BD", "shop");
+define("PASS", "12345");
